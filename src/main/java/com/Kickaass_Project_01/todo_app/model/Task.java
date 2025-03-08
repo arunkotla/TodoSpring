@@ -12,7 +12,7 @@ public class Task {
 
 
     @Id   // Marks this field as a PRIMARY KEY
-    @GeneratedValue(strategy = GenerationType.AUTO)  // Auto-increments the ID
+    @GeneratedValue(strategy = GenerationType.IDENTITY)  // Auto-increments the ID
     private long id;
     private String title;
     private boolean isCompleted;
